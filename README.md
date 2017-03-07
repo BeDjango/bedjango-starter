@@ -3,7 +3,7 @@
 An easy to use project template for Django 1.10, for more information visit our [blog](http://www.bedjango.com/blog/create-django-application-bedjango-starter/)
 
 ## Features
- - 98% code coverage
+ - High code coverage
  - Custom theme and responsive based on bootstrap
  - Usefull packages
  - Default views
@@ -78,13 +78,11 @@ python3 manage.py createsuperuser
 
 # You can create a project from a local template
 git clone https://github.com/bedjango/bedjango-starter.git
-django-admin.py startproject --template=bedjango-starter/project --extension=py,rst,yml <b>{{nameofproject}}</b>
+django-admin.py startproject --template=bedjango-starter/project_name --extension=py,rst,yml <b>{{nameofproject}}</b>
 
-# If we need create a new app inside our project, if we are cloned this project:
-django-admin.py startapp --template=bedjango-starter/project/project_name --extension=py,rst,yml <b>{{nameofapp}}</b>
+# If we need to create a new app inside our project, we must clone this repo and run following command:
+django-admin.py startapp --template=bedjango-starter/project_name/project_name --extension=py,rst,yml <b>{{nameofapp}}</b>
 
-# If you haven't cloned this project, you must use following django command:
-python3 manage.py startapp <b>{{nameofapp}}</b>
 
 </pre>
 ## Testing
