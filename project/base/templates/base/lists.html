@@ -1,0 +1,90 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+<div class="lists-wrapper">
+    <div class="contact-main jumbotron">
+        <h1>{% trans 'Lists' %}</h1>
+    </div>
+    <div class="container">
+        <h1>{% trans 'List number'%} 1</h1>
+        <ul class="list-group list-with-badges">
+            <li class="list-group-item">{% trans 'List item number'%} 1<span class="badge">1</span></li>
+            <li class="list-group-item">{% trans 'List item number'%} 2<span class="badge">23</span></li>
+            <li class="list-group-item">{% trans 'List item number'%} 3<span class="badge">12</span></li>
+            <li class="list-group-item">{% trans 'List item number'%} 4<span class="badge">14</span></li>
+            <li class="list-group-item">{% trans 'List item number'%} 5<span class="badge">1</span></li>
+            <li class="list-group-item">{% trans 'List item number'%} 6<span class="badge">23</span></li>
+            <li class="list-group-item">{% trans 'List item number'%} 7<span class="badge">12</span></li>
+            <li class="list-group-item">{% trans 'List item number'%} 8<span class="badge">14</span></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h1>{% trans 'List number'%} 2</h1>
+        <div class="list-group django-list">
+            <a href="#" class="list-group-item">
+                <h4 class="list-group-item-heading">{% trans 'Item title '%} 1</h4>
+                <p class="list-group-item-text">I ought to just try that with my boss. I'd get kicked out on the spot.</p>
+            </a>
+            <a href="#" class="list-group-item">
+                <h4 class="list-group-item-heading">{% trans 'Item title '%} 2</h4>
+                <p class="list-group-item-text">Doing business like this takes much more effort than doing your own business at home.</p>
+            </a>
+            <a href="#" class="list-group-item">
+                <h4 class="list-group-item-heading">{% trans 'Item title '%} 3</h4>
+                <p class="list-group-item-text">However hard the threw himself onto his right, he always rolled back to where he was.</p>
+            </a>
+            <a href="#" class="list-group-item">
+                <h4 class="list-group-item-heading">{% trans 'Item title '%} 4</h4>
+                <p class="list-group-item-text">Gregor then turned to look out the window at the dull weather.</p>
+            </a>
+        </div>
+
+
+        <div class="container">
+            <h1>{% trans 'List number'%} 3</h1>
+            <div class="list-group django-list">
+                <a href="#" class="list-group-item row">
+                    <div class="img-separator col-md-1">
+                        <img width='40' height='45' class="img-circle" src="{% static 'images/header_bg.jpg'%}" alt="" />
+                    </div>
+                    <div class="text-separator col-md-11">
+                        <h4 class="list-group-item-heading">{% trans 'Comment' %} 1</h4>
+                        <p class="list-group-item-text">I ought to just try that with my boss. I'd get kicked out on the spot.</p>
+                    </div>
+                </a>
+                <a href="#" class="list-group-item row">
+                    <div class="img-separator col-md-1">
+                        <img width='40' height='45' class="img-circle" src="{% static 'images/header_bg.jpg'%}" alt="" />
+                    </div>
+                    <div class="text-separator col-md-11">
+                        <h4 class="list-group-item-heading">{% trans 'Comment' %} 2</h4>
+                        <p class="list-group-item-text">I ought to just try that with my boss. I'd get kicked out on the spot.</p>
+                    </div>
+                </a>
+                <a href="#" class="list-group-item row">
+                    <div class="img-separator col-md-1">
+                        <img width='40' height='45' class="img-circle" src="{% static 'images/header_bg.jpg'%}" alt="" />
+                    </div>
+                    <div class="text-separator col-md-11">
+                        <h4 class="list-group-item-heading">{% trans 'Comment' %} 3</h4>
+                        <p class="list-group-item-text">I ought to just try that with my boss. I'd get kicked out on the spot.</p>
+                    </div>
+                </a>
+                <a href="#" class="list-group-item row">
+                    <div class="img-separator col-md-1">
+                        <img width='40' height='45' class="img-circle" src="{% static 'images/header_bg.jpg'%}" alt="" />
+                    </div>
+                    <div class="text-separator col-md-11">
+                        <h4 class="list-group-item-heading">{% trans 'Comment' %} 4</h4>
+                        <p class="list-group-item-text">I ought to just try that with my boss. I'd get kicked out on the spot.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}

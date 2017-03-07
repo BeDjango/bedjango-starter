@@ -1,0 +1,25 @@
+{
+  "name": "Emergya Sass Workflow",
+  "version": "0.0.1",
+  "authors": [
+    "Nesta Guerrero <nguerrero@emergya.es>",
+    "Rafael Vergara <rvergara@emergya.com>",
+    "Enno Langelotz <enno@langelotz.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "sass-libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "~2.2.7",
+    "breakpoint-sass": "~2.6.1",
+    "normalize-libsass": "~1.0.3",
+    "bourbon": "~4.2.6",
+    "sass-burger": "~1.3.0",
+    "bootstrap-sass": "^3.3.7"
+  }
+}

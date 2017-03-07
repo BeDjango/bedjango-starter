@@ -1,0 +1,462 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-06 15:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: base/context_processors.py:6 base/templates/base/base_header.html:28
+#: base/templates/base/base_header.html:34
+msgid "Home"
+msgstr ""
+
+#: base/context_processors.py:9
+msgid "Landing"
+msgstr "Inicio"
+
+#: base/context_processors.py:10 base/templates/base/base_header.html:76
+#: users/templates/registration/login.html:27
+msgid "Register"
+msgstr "Registro"
+
+#: base/context_processors.py:11 base/templates/base/base_header.html:29
+msgid "Blog"
+msgstr ""
+
+#: base/context_processors.py:12 base/templates/base/base_footer.html:17
+msgid "Privacy Policy"
+msgstr "Privacidad"
+
+#: base/context_processors.py:13
+msgid "Contact"
+msgstr "Contacto"
+
+#: base/context_processors.py:14 base/templates/base/base_header.html:30
+#: base/templates/base/lists.html:8
+msgid "Lists"
+msgstr "Listas"
+
+#: base/context_processors.py:15 base/templates/base/base_header.html:31
+#: base/templates/base/panels.html:8
+msgid "Panels"
+msgstr "Paneles"
+
+#: base/forms.py:6
+msgid "Your name"
+msgstr "Su nombre"
+
+#: base/forms.py:8 users/forms.py:37
+msgid "Your email"
+msgstr "Su correo electrónico"
+
+#: base/forms.py:11
+msgid "Leave us your message"
+msgstr "Déjenos su mensaje"
+
+#: base/templates/404.html:5
+msgid "Error 404"
+msgstr "Error 404"
+
+#: base/templates/404.html:13
+msgid "PAGE NOT FOUND!"
+msgstr "PÁGINA NO ENCONTRADA"
+
+#: base/templates/404.html:14 base/templates/500.html:14
+#: users/templates/registration/activation_complete.html:10
+#: users/templates/registration/registration_complete.html:9
+msgid "Go back"
+msgstr "Volver"
+
+#: base/templates/500.html:5
+msgid "Error 500"
+msgstr ""
+
+#: base/templates/500.html:13
+msgid "SERVER ERROR!"
+msgstr "ERROR DEL SERVIDOR"
+
+#: base/templates/base/base.html:9
+msgid "BeDjango starter"
+msgstr ""
+
+#: base/templates/base/base_header.html:32
+#: base/templates/base/base_header.html:35 base/templates/base/contact.html:7
+#: base/templates/base/index.html:9
+msgid "Contact us"
+msgstr "Contáctanos"
+
+#: base/templates/base/base_header.html:60
+msgid "Logout"
+msgstr ""
+
+#: base/templates/base/base_header.html:63
+msgid "Personal menu #1"
+msgstr ""
+
+#: base/templates/base/base_header.html:64
+msgid "Personal menu #2"
+msgstr ""
+
+#: base/templates/base/base_header.html:71
+msgid "Don't have an account yet?"
+msgstr "¿No tienes una cuenta todavía?"
+
+#: base/templates/base/base_header.html:81
+#: users/templates/modals/login.html:22
+#: users/templates/registration/login.html:22
+msgid "Login"
+msgstr "Login"
+
+#: base/templates/base/contact.html:29
+msgid "Submit"
+msgstr "Enviar"
+
+#: base/templates/base/index.html:8
+msgid "Put your title here"
+msgstr "Pon tu título aquí"
+
+#: base/templates/base/lists.html:11 base/templates/base/lists.html:25
+#: base/templates/base/lists.html:47
+msgid "List number"
+msgstr "Lista número"
+
+#: base/templates/base/lists.html:13 base/templates/base/lists.html:14
+#: base/templates/base/lists.html:15 base/templates/base/lists.html:16
+#: base/templates/base/lists.html:17 base/templates/base/lists.html:18
+#: base/templates/base/lists.html:19 base/templates/base/lists.html:20
+msgid "List item number"
+msgstr "Objeto de lista número"
+
+#: base/templates/base/lists.html:28 base/templates/base/lists.html:32
+#: base/templates/base/lists.html:36 base/templates/base/lists.html:40
+#, fuzzy
+#| msgid "Item title"
+msgid "Item title "
+msgstr "Título de objeto"
+
+#: base/templates/base/lists.html:54 base/templates/base/lists.html:63
+#: base/templates/base/lists.html:72 base/templates/base/lists.html:81
+msgid "Comment"
+msgstr "Comentario"
+
+#: base/templates/base/panels.html:13
+msgid "Data Grid"
+msgstr "Tabla de datos"
+
+#: base/templates/base/panels.html:17 base/templates/base/panels.html:18
+#: base/templates/base/panels.html:19
+msgid "Column title"
+msgstr "Título de columna"
+
+#: base/templates/base/panels.html:26 base/templates/base/panels.html:36
+#: base/templates/base/panels.html:46 base/templates/base/panels.html:56
+#: base/templates/base/panels.html:66 base/templates/base/panels.html:76
+#: base/templates/base/panels.html:86 base/templates/base/panels.html:96
+msgid "Item"
+msgstr "Objeto"
+
+#: base/templates/base/panels.html:109
+msgid "Standard panel"
+msgstr "Panel estándar"
+
+#: base/templates/base/panels.html:112
+msgid "Panel title"
+msgstr "Título del panel"
+
+#: base/templates/base/privacy-policy.html:6
+msgid "Privacy Policy and Legal conditions"
+msgstr "Política de privacidad y condiciones legales"
+
+#: base/utils.py:16
+msgid "The password is correct."
+msgstr "El password es correcto."
+
+#: base/utils.py:19
+msgid "The password is invalid."
+msgstr "El password es inválido."
+
+#: base/validators.py:18 base/validators.py:24
+#: users/templates/registration/password_change_form.html:32
+#: users/templates/registration/registration_form.html:34
+msgid ""
+"Password must be at least 8 characters and contain lowercase and uppercase "
+"letters, numbers and special characters."
+msgstr ""
+"La contraseña debe de tener al menos 8 caracteres, y debe llevar mayúsculas "
+"y minúsculas, números, y caracteres especiales."
+
+#: users/forms.py:13 users/forms.py:38
+#, fuzzy
+#| msgid "Password valid"
+msgid "Password"
+msgstr "Password válido"
+
+#: users/forms.py:18 users/forms.py:27 users/forms.py:43
+msgid "Invalid password"
+msgstr "Password inválido"
+
+#: users/forms.py:21
+msgid "Password confirmation"
+msgstr "Confirmación de contraseña"
+
+#: users/forms.py:24
+msgid "Enter the same password as before, for verification."
+msgstr ""
+
+#: users/forms.py:36
+msgid "Email"
+msgstr "Email válido"
+
+#: users/forms.py:39
+msgid "Your password"
+msgstr "Tu contraseña"
+
+#: users/forms.py:57 users/forms.py:60
+msgid "Sorry, that login was invalid. Please try again."
+msgstr "EL login es inválido. Por favor, inténtelo de nuevo"
+
+#: users/models.py:13
+msgid "Country"
+msgstr "Ciudad"
+
+#: users/models.py:14
+msgid "email address"
+msgstr "dirección de correo eletrónico"
+
+#: users/models.py:15
+msgid "Preferred Language"
+msgstr "Lenguaje por defecto"
+
+#: users/templates/modals/login.html:21
+#: users/templates/registration/login.html:21
+msgid "Forgot my password"
+msgstr "Olvidé mi contraseña"
+
+#: users/templates/modals/login.html:27
+msgid "Not a member yet?"
+msgstr "¿aún no eres miembro?"
+
+#: users/templates/modals/login.html:28
+#: users/templates/registration/registration_form.html:35
+msgid "Register now"
+msgstr "Regístrate"
+
+#: users/templates/registration/activation_complete.html:9
+msgid "Congratulations, you account is now active!"
+msgstr "Enhorabuena, su cuenta está activada."
+
+#: users/templates/registration/activation_email.txt:3
+msgid "This is the activation account email for your account"
+msgstr "Este es el correo de activación para su cuenta"
+
+#: users/templates/registration/activation_email.txt:5
+msgid "Your activation code is"
+msgstr "Tu código de activación es"
+
+#: users/templates/registration/activation_email.txt:5
+msgid "and is available for"
+msgstr "y está disponible por"
+
+#: users/templates/registration/activation_email.txt:5
+msgid "days"
+msgstr "días"
+
+#: users/templates/registration/activation_email_subject.txt:2
+msgid "Activation account email"
+msgstr "Email de activación de cuenta"
+
+#: users/templates/registration/login.html:7
+#: users/templates/registration/password_reset_complete.html:9
+msgid "Log in"
+msgstr ""
+
+#: users/templates/registration/password_change_done.html:7
+msgid "Password changed successfully!"
+msgstr "¡Contraseña cambiada correctamente!"
+
+#: users/templates/registration/password_change_done.html:11
+#, python-format
+msgid ""
+"\n"
+"            Come back to <a class=\"btn btn-primary btn-xs\" href="
+"\"%(home_url)s\">home</a>\n"
+"        "
+msgstr ""
+"\n"
+"            Vuelve al <a class=\"btn btn-primary btn-xs\" href="
+"\"%(home_url)s\">inicio</a>\n"
+"        "
+
+#: users/templates/registration/password_change_form.html:12
+msgid "Change your password"
+msgstr "Cambia tu contraseña"
+
+#: users/templates/registration/password_change_form.html:33
+msgid "Change password"
+msgstr "Cambiar contraseña"
+
+#: users/templates/registration/password_reset_complete.html:7
+msgid "Your password has been set.  You may go ahead and log in now."
+msgstr "Tu contraseña ha sido establecida. Puedes iniciar sesión con la nueva contraseña desde este momento"
+
+#: users/templates/registration/password_reset_confirm.html:11
+msgid ""
+"Please enter your new password twice so we can verify you typed it in "
+"correctly."
+msgstr "Por favor, introduzca su contraseña dos veces para verificar que está correctamente escrita"
+
+#: users/templates/registration/password_reset_confirm.html:17
+#, fuzzy
+#| msgid "Invalid password"
+msgid "New password:"
+msgstr "Password inválido"
+
+#: users/templates/registration/password_reset_confirm.html:24
+#, fuzzy
+#| msgid "Forgot my password"
+msgid "Confirm password:"
+msgstr "Olvidé mi contraseña"
+
+#: users/templates/registration/password_reset_confirm.html:29
+#, fuzzy
+#| msgid "Forgot my password"
+msgid "Change my password"
+msgstr "Olvidé mi contraseña"
+
+#: users/templates/registration/password_reset_confirm.html:36
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a new password reset."
+msgstr ""
+
+#: users/templates/registration/password_reset_done.html:8
+msgid ""
+"We've emailed you instructions for setting your password, if an account "
+"exists with the email you entered. You should receive them shortly."
+msgstr ""
+
+#: users/templates/registration/password_reset_done.html:10
+msgid ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with, and check your spam folder."
+msgstr ""
+
+#: users/templates/registration/password_reset_email.txt:2
+#, python-format
+msgid ""
+"You're receiving this email because you requested a password reset for your "
+"user account at %(site_name)s."
+msgstr ""
+
+#: users/templates/registration/password_reset_email.txt:4
+msgid "Please go to the following page and choose a new password:"
+msgstr ""
+
+#: users/templates/registration/password_reset_email.txt:8
+msgid "Your username, in case you've forgotten:"
+msgstr ""
+
+#: users/templates/registration/password_reset_email.txt:10
+msgid "Thanks for using our site!"
+msgstr ""
+
+#: users/templates/registration/password_reset_email.txt:12
+#, python-format
+msgid "The %(site_name)s team"
+msgstr ""
+
+#: users/templates/registration/password_reset_form.html:9
+msgid ""
+"Forgotten your password? Enter your email address below, and we'll email "
+"instructions for setting a new one."
+msgstr ""
+
+#: users/templates/registration/password_reset_form.html:14
+#, fuzzy
+#| msgid "Email valid"
+msgid "Email address:"
+msgstr "Email válido"
+
+#: users/templates/registration/password_reset_form.html:15
+#, fuzzy
+#| msgid "Forgot my password"
+msgid "Reset my password"
+msgstr "Olvidé mi contraseña"
+
+#: users/templates/registration/registration_complete.html:7
+msgid "Now you're registered "
+msgstr "Se ha registrado con éxito "
+
+#: users/templates/registration/registration_complete.html:8
+msgid "We have sent you an email to validate the account."
+msgstr "Le hemos enviado un email para validar su cuenta."
+
+#: users/templates/registration/registration_form.html:11
+msgid "Create your account now"
+msgstr "Crea tu cuenta ahora"
+
+#: users/templates/users/home.html:7
+msgid "Welcome "
+msgstr "Bienvenido "
+
+#: users/templates/users/home.html:8
+msgid "Welcome message after login"
+msgstr "Mensaje de bienvenida después del login"
+
+#: users/templates/users/home.html:16 users/templates/users/home.html:32
+msgid "Card block"
+msgstr "Bloque de cards"
+
+#~ msgid "Username is valid"
+#~ msgstr "Usuario válido"
+
+#~ msgid "Please write a valid username"
+#~ msgstr "Introduzca un usuario válido"
+
+#~ msgid "Email is not valid"
+#~ msgstr "El email no es válido"
+
+#~ msgid "Please write a valid password"
+#~ msgstr "Introduzca un password válido"
+
+#~ msgid "Passwords are correct"
+#~ msgstr "Las passwords coinciden"
+
+#~ msgid "PAGE NOT FOUND"
+#~ msgstr "PAGINA NO ENCONTRADA"
+
+#~ msgid "Header title"
+#~ msgstr "Título del header"
+
+#~ msgid "Title"
+#~ msgstr "Titulo"
+
+#~ msgid "The public url is available."
+#~ msgstr "La URL pública está disponible."
+
+#~ msgid "The public url is taken."
+#~ msgstr "La URL pública está ocupada."
+
+#~ msgid "Accept"
+#~ msgstr "Aceptar"
+
+#~ msgid "Photo"
+#~ msgstr "Foto"
+
+#~ msgid "Here goes the secure password protocol"
+#~ msgstr "Aquí va el protocolo de seguridad del password"
+
+#~ msgid "Last updated "
+#~ msgstr "Última actualización "

@@ -1,0 +1,74 @@
+// Override of bootstrap custom classes
+
+.btn-registrate
+  &.disabled
+    background-color: #d9dfe3 !important
+    color: #b0bec5 !important
+    position: relative 
+.btn
+  &.btn-danger
+    +button-maker(32px, 8px)
+    background-color: white
+    border: 1px solid #2b334a
+    color: #2b334a
+    &:hover
+      background: none
+  &.btn-primary
+    +button-maker(32px, 8px)
+    border-radius: 2px
+    &.btn-lg
+      +button-maker(56px, 19px)
+      &.disabled
+        +button-disable()
+
+    &.btn-md
+      +button-maker(48px, 15px)
+      &.disabled
+        +button-disable()
+
+    &.btn-sm
+      +button-maker(40px, 12px)
+      &.disabled
+        +button-disable()
+
+    &.btn-xs
+      +button-maker(32px, 8px)
+      &.disabled
+        +button-disable()
+
+
+.svg-wrapper
+  margin-bottom: 0.5em
+  position: absolute
+  top: 10%
+  width: 100%
+  text-align: center
+  color: white
+
+.flex-box-big
+  .svg-wrapper:hover .shape
+
+.shape
+  stroke-dasharray: 140 540
+  stroke-dashoffset: -474
+  stroke-width: 8px
+  fill: transparent
+  stroke: #19f6e8
+  border-bottom: 5px solid black
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s
+
+.text
+  font-family: 'Roboto Condensed'
+  font-size: 22px
+  line-height: 32px
+  letter-spacing: 8px
+  color: #fff
+  top: -48px
+  position: relative
+
+.svg-wrapper:hover
+  .shape
+    stroke-width: 2px
+    stroke-dashoffset: 0
+    stroke-dasharray: 760
+    margin-bottom: -40px

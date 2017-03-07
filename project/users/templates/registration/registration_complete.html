@@ -1,0 +1,13 @@
+{% extends 'base/base.html' %}
+{% load i18n %}
+{% load static %}
+{% block content %}
+<div class="index-wrapper">
+    <div class="jumbotron information-panel">
+        <h1>{% trans "Now you're registered "%}</h1>
+        <h3>{% trans "We have sent you an email to validate the account." %}</h1>
+        <a type="button" href="{% url 'index' %}" class="btn btn-primary btn-lg" name="button">{% trans "Go back" %}</a>
+    </div>
+
+</div>
+{% endblock %}

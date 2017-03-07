@@ -1,0 +1,44 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% load i18n %}
+{% block extra_js %}
+    <script src="{% static 'js/account_validator.js' %}" charset="utf-8"></script>
+{%  endblock %}
+{% block content %}
+  <div class="registration-layout">
+    <div class="registration-form-wrapper">
+        <div class="registration jumbotron">
+            <h1>{% trans "Create your account now" %}</h1>
+        </div>
+        <div class="create-account-form">
+            <form method="POST" action="{% url 'registration_register' %}" novalidate="novalidate">
+                <div class="image-separator hidden-xs">
+                    <img src="http://placehold.it/150x150" alt="" />
+                </div>
+                <div class="registration-form">
+                 {% csrf_token %}
+                     <div class="fields-separator">
+                     {% for field in form %}
+                             <div class="form-group">
+                               {% if field.errors %}
+                                   {% for error in field.errors %}
+                                       <p class="field-error">{{ error }}</p>
+                                   {% endfor %}
+                               {% endif %}
+                               {{ field.label_tag }}
+                               {{ field }}
+                             </div>
+                     {% endfor %}
+                       </div>
+                     <div class="action-call">
+                         {% for rule in password_rules %}
+                             <span>{{ rule }}</span>
+                         {% endfor %}
+                         <button id="id_register" type="submit" class="btn-registrate">{% trans "Register now" %}</button>
+                     </div>
+                </div>
+           </form>
+        </div>
+      </div>
+    </div>
+{% endblock %}

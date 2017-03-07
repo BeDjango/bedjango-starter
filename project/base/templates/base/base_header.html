@@ -1,0 +1,109 @@
+{% load i18n %}
+{% load static %}
+      {% block bg_image %}
+      <div class="background-wrapper">
+          <img src="{% static 'images/header_bg.jpg'%}" alt="" />
+      </div>
+          <div class="overlay"></div>
+      {% endblock %}
+      <nav class="navbar navbar-default navbar-custom">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar top-bar"></span>
+              <span class="icon-bar middle-bar"></span>
+              <span class="icon-bar bottom-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{% url 'index' %}" class="web-logo">
+              <img src="{% static 'images/logo.png' %}"/>
+            </a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              {% if user.is_authenticated %}
+                  <li class="{% if 'home' in request.path %} active {% endif %}"><a href="{% url 'home' %}"> {% trans "Home" %} <span class="sr-only">(current)</span></a></li>
+                  <li class="{% if 'blog' in request.path %} active {% endif %}"><a id="id_section_5_header" href="{% url 'blog_detail' %}" class="link-menu">{% trans "Blog" %}</a></li>
+                  <li class="{% if 'lists' in request.path %} active {% endif %}"><a id="id_section_3_header" href="{% url 'lists' %}" class="link-menu">{% trans "Lists" %}</a></li>
+                  <li class="{% if 'panels' in request.path %} active {% endif %}"><a id="id_section_4_header" href="{% url 'panels' %}" class="link-menu">{% trans "Panels" %}</a></li>
+                  <li class="{% if 'contact' in request.path %} active {% endif %}"><a id="id_section_2_header" href="{% url 'contact' %}" class="link-menu">{% trans "Contact us" %}</a></li>
+              {% else %}
+                  <li><a href="{% url 'index' %}">{% trans "Home" %} <span class="sr-only">(current)</span></a></li>
+                  <li class="{% if 'contact' in request.path %} active {% endif %}"><a id="id_section_2_header" href="{% url 'contact' %}" class="link-menu">{% trans "Contact us" %}</a></li>
+              {% endif %}
+            </ul>
+            <div class="navbar-right lang-sel">
+              {% block language-selector %}
+                <form action="{% url 'set_language' %}" method="post">{% csrf_token %}
+                  <input name="next" type="hidden" value="{{ request.path }}" />
+                    <select id="id_select_language" name="language" onchange="this.form.submit()">
+                      {% get_current_language as LANGUAGE_CODE %}
+                      {% get_available_languages as LANGUAGES %}
+                      {% get_language_info_list for LANGUAGES as languages %}
+                      {% for language in languages %}
+                        <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected="selected"{% endif %}>
+                          {{ language.code }}
+                        </option>
+                      {% endfor %}
+                    </select>
+                </form>
+              {% endblock %}
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+              {% if user.is_authenticated %}
+                  <li class="logout">
+                      <div id="over_user" class="configuration_active"></div>
+                      <a id="id_logout" class="logout_button" href="{% url 'logout' %}" title="Logout">{% trans "Logout" %}</a>
+                      <div id="configuration_menu" class="configuration_menu arrow_box hidden">
+                          <ul>
+                              <a id="id_personal_menu_1" href="#"><li class="divider">{% trans 'Personal menu #1' %}</li></a>
+                              <a id="id_personal_menu_2" href="#"><li>{% trans 'Personal menu #2' %}</li></a>
+                          </ul>
+                      </div>
+                  </li>
+              {% else %}
+                  <li class="hidden-md hidden-sm">
+                      <p class="navbar-text">
+                          <span class="not-account-yet">{% trans "Don't have an account yet?" %}
+                          </span>
+                      </p>
+                  </li>
+                  <li>
+                      <a id="id_registration" href="{% url 'registration_register' %}" class="btn btn-registro">{% trans "Register" %}</a></li>
+                  <li>
+                        {% if not "/login" in request.path %}
+                            <a id="id_login" data-toggle="modal" data-target="#modal-login" {%  if '/accounts' in request.path %}  class="btn btn-ghost" href="#"
+                        {% else %}
+                            class="login-no-register btn btn-ghost" href="#"{% endif %} role="button">{% trans "Login" %}</a></li>
+                        {% endif %}
+              {% endif %}
+            </ul>
+
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+<!-- Breadcrumbs are not visible in the main index page.  -->
+{% if not request.path == '/' %}
+<div class="bg-color-white">
+    <div id="id_breadcrumbs" class="breadcrumb hidden-xs">
+             {% if breadcrumbs|length == 1 %}
+                 {% for crumb in breadcrumbs %}
+                     <a class="active" href="{% url crumb.1 %}">{{ crumb.0 }} </a>
+                 {% endfor %}
+             {% else %}
+                 {% for crumb in breadcrumbs %}
+                     {% if not forloop.last or forloop.first %}
+                         <a class="active" href="{% url crumb.1 %}"> {{ crumb.0 }} </a>
+                         >
+                     {% else %}
+                         <a rel=""href="#">{{ crumb.0 }}</a>
+                     {% endif %}
+                 {% endfor %}
+             {% endif %}
+</div>
+</div>
+{% endif %}

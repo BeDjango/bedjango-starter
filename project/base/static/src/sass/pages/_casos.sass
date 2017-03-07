@@ -1,0 +1,44 @@
+.flex-
+  &boxes
+    +clearfix
+    align-items: stretch
+    clear: both
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    text-align: center
+  &box
+    position: relative
+    align-self: stretch
+    display: block
+    flex: 2 2 span(6)
+    +breakpoint($medium)
+      flex: 3 3 span(4)
+    text-decoration: none
+    transition: all 0.2s ease-in-out
+    img
+      display: block
+      width: 100%
+  &title
+    text-transform: uppercase
+    font-size: 1em
+    margin: 0
+    overflow: visible
+    white-space: normal
+    +breakpoint($medium)
+      font-size: 2em
+    margin-bottom: 0.5em
+    position: absolute
+    top: 25%
+    width: 100%
+    text-align: center
+    color: white
+  p
+    line-height: 1.5em
+    margin: auto
+  &box-big
+    flex: 1 1 span(12)
+    font-size: 1em
+    +breakpoint($medium)
+      flex: 2 2 span(6)
+      font-size: 1em

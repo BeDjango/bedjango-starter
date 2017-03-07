@@ -1,0 +1,31 @@
+{% load i18n %}
+
+<div id="modal-login" class="modal fade modal-sm" role="dialog">
+    <div class="modal-content">
+        <div class="modal-body">
+            <div class="white_pointer"></div>
+            <form class="test" method="POST" action="{% url 'index' %}" novalidate="novalidate">
+                {% csrf_token %}
+                {% if form %}
+                    {% for error in login_form.non_field_errors %}
+                        <ul class="errorlist">
+                            <li>{{ error }}</li>
+                        </ul>
+                    {% endfor %}
+                {{ login_form.email.errors }}
+                <label>{{ login_form.email.label }}</label>
+                {{ login_form.email }}
+                {{ login_form.password.errors}}
+                <label>{{ login_form.password.label }}</label>
+                {{ login_form.password }}
+                <a id="forgot-password" href="{% url 'auth_password_reset' %}">{% trans "Forgot my password" %}</a>
+                <input id="id_do_login" class="" type="submit" value="{% trans 'Login' %}"></input>
+                {% endif %}
+            </form>
+        </div>
+        <div class="modal-footer">
+            <span class="modal-information-message">{%trans 'Not a member yet?' %}</span>
+            <a href="{% url 'registration_register' %}">{% trans 'Register now' %}</a>
+        </div>
+    </div>
+</div>

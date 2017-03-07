@@ -1,0 +1,60 @@
+.dropdown
+  position: relative
+  z-index: 8
+  text-align: right
+  margin-right: 20px
+  max-height: 40px
+  margin-bottom: -40px
+  &-container
+    display: inline-block
+    position: relative
+    text-align: center
+  &-button
+    cursor: pointer
+    float: right
+    font-size: 1.2em
+    margin: 0
+    position: relative
+    color: white
+    img
+      vertical-align: top
+      width: 32px
+      height: auto
+
+
+  &-button:after
+    color: red
+    content: "\25BE"
+    font-size: 1.2em
+    display: block
+    position: absolute
+    right: -15px
+    top: -5px
+
+  &-menu
+    +transition(all 0.2s ease-in-out)
+
+    background: $gray
+    cursor: pointer
+    display: none
+    margin: 0
+    overflow: show
+    padding: 0
+    position: absolute
+    right: 0
+    top: 35px
+    width: auto
+    z-index: 99999
+
+    &:before
+      +position(absolute, 0 1em 0 0)
+
+      content: "\25b2"
+      font-size: 1.4em
+      pointer-events: none
+      text-shadow: 0 -2px 2px transparentize(black, 0.7)
+      top: -0.7em
+      text-align: right
+
+  .show-menu
+    display: block

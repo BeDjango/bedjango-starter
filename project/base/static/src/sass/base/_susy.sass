@@ -1,0 +1,30 @@
+// Susy config declaration.
+
+// Variables
+
+
+// Susy config
+$susy: (global-box-sizing: border-box, columns: 12, gutters: 0.25, math: fluid, output: isolate, container: 100%, gutter-position: after)
+$debug: (debug: (image: show, output: overlay))
+
+// Debug {ON}
++layout($susy $debug)
+
+// Debug {OFF}
+//+layout($susy)
+
+// Button Debug {ON}.
+
+head
+  &:before
+    position: absolute
+    right: 0
+    top: 120px
+    color: violet
+
+.no-grid
+	head:before
+		display: none
+.grid
+  head:before
+		display: block

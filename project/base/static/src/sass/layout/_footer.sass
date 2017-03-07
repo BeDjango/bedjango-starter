@@ -1,0 +1,98 @@
+footer
+  padding: 5px 0
+  color: white
+  border-bottom: 0.125em dotted
+  position: relative
+  background-color: #2b334a
+
+  a
+    color: white
+    &:hover
+      color: $gray
+
+  .navbar
+    .nav
+      width: 100%
+    li
+      text-transform: uppercase
+      font-weight: bold
+      font-size: 0.75em
+      ul
+        list-style: none
+        padding-left: 15px
+        li
+          font-size: 1em
+          text-transform: none
+          font-weight: normal
+          padding-top: 10px
+          &:first-child
+            padding-top: 12px
+          a
+            color: rgba(120, 144, 156, 0.8)
+  .block-social
+    padding-top: 1.619em
+    width: 310px
+    height: 200px
+    position: relative
+    margin: 0 auto
+    float: none
+    +breakpoint(768px)
+      margin: 0
+      float: right
+    span
+      position: absolute
+      bottom: 40px
+      left: 20px
+      text-transform: none
+      font-weight: normal
+      font-size: 12px
+      margin-top: 1em
+      color: rgba(120, 144, 156, 0.8)
+    .social-icons
+      +display(flex)
+      margin: 0 auto
+      a
+        cursor: default
+        display: inline-block
+        margin-left: 10px
+        width: 41px
+      img
+        margin: 0px 0.313em 0px 0.313em
+        position: absolute
+        +display(flex)
+        clip: rect(0px, 42px, 43px, 0px)
+        &:hover
+          clip: rect(48px, 42px, 96px, 0px)
+          top: -35.5px
+  // .block-links
+  //   max-width: 800px
+  //   padding-top: 2.3em
+  //   .block-link
+  //     margin-left: 3em
+  //     display: inline-block
+  //     vertical-align: top
+  //     b
+  //       text-transform: uppercase
+  //
+  //     ul
+  //       color: $white
+  //       list-style: none
+  //       padding: 0
+  //       font-size: 1.1em
+  //       opacity: 0.8
+  //       li
+  //         font-size: 12px
+  //         margin-top: 1em
+  //         color: rgba(120, 144, 156, 0.8)
+  //         &:first-child
+  //           margin-top: 3em
+
+prefooter
+  background: $medium-gray
+  display: block
+  padding: 41px 0
+  div
+    div
+      padding: 20px 0
+      +breakpoint(768px)
+        padding: 0

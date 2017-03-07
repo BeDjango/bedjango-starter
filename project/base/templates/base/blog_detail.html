@@ -1,0 +1,41 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block content %}
+    <div class="blog-content">
+        <!-- Insert blog content here. THe image is positioned absolute to get the effect. -->
+        <img class="blog-image" src="{% static 'images/header_bg.jpg' %}" alt="" />
+        <div class="blog-title">
+            <h1>Lorem Ipsum</h1>
+        </div>
+        <div class="author">
+            <img src="{% static 'images/logo.png' %}" alt="Freddie, nothing else" />
+            <span>by <strong>Anonymous Anon</strong></span>
+            <span class="date">4-6-1985</span>
+        </div>
+        <div class="blog-article">
+            <p>
+                <b class="intro-letter">L</b>orem ipsum dolor sit amet, consectetur adipiscing elit.
+                Duis vehicula quis ex eu suscipit. Duis feugiat tincidunt dolor euismod malesuada.
+                 Aliquam a quam lobortis, mollis tellus a, tempor arcu. Sed varius elit eget semper hendrerit.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue sapien at tellus aliquam
+                  dapibus. Sed semper justo sed nulla ultricies, a imperdiet libero cursus. Curabitur interdum leo
+                   ac pulvinar auctor. Integer euismod diam id mauris tempor, non elementum nibh venenatis. Donec
+                   sagittis non nunc at mollis. Etiam maximus, tellus ut consequat mollis, mi lectus feugiat augue,
+                    nec consequat augue quam luctus lacus. Sed et dignissim quam.
+                Ut fringilla posuere fermentum. Donec imperdiet malesuada metus.
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
+                cubilia Curae; Fusce quis neque ut mauris tincidunt maximus et nec purus.
+                Mauris euismod in tellus eget interdum. Orci varius natoque penatibus et
+                magnis dis parturient montes, nascetur ridiculus mus. Aenean mattis est eget diam commodo,
+                 convallis condimentum sapien dapibus. Nam maximus posuere velit id auctor. Etiam sed sagittis tellus.
+                  Nunc ornare tortor purus, quis facilisis ipsum molestie vel. Praesent sit amet magna egestas,
+                   viverra purus id, tincidunt augue. Aenean cursus eros erat, quis varius tellus accumsan ac.
+                    Curabitur placerat dictum dui, sed venenatis ex commodo id. Donec metus est, pretium vel quam in,
+                     semper finibus augue. Donec consequat port
+                </p>
+            </div>
+
+
+    </div>
+
+{% endblock %}

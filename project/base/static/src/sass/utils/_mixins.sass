@@ -1,0 +1,29 @@
+/**
+ * Mixins
+ */
+=button-disable()
+  background-color: #d9dfe3
+  color: #b0bec5
+  position: relative
+
+=button-maker($padding-x, $padding-y)
+  padding: $padding-y $padding-x
+  background-color: $accent-color
+  font-weight: bold
+  color: white
+  font-size: 14px
+  font-family: $django_main
+  border: none
+  position: relative
+  text-transform: uppercase
+  transition: 0.5s ease
+  &:hover
+    background-color: #ff388b
+
+
+// Add padding to container when resolution is smaller than width container defined
+=padding-container($container-width, $padding)
+  transition: padding .5s ease-in-out
+  +breakpoint(max-width $container-width + $padding)
+    padding: 0 $padding
+    transition: padding .5s ease-in-out

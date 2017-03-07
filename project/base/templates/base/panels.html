@@ -1,0 +1,126 @@
+{% extends 'base/base.html' %}
+{% load i18n %}
+{% load static %}
+{% block content %}
+
+<div class="panels-wrapper">
+    <div class="contact-main jumbotron">
+        <h1>{% trans 'Panels' %}</h1>
+    </div>
+    <div class="container">
+        <!-- Adding the table the attribute "data-url" with a JSON file makes it dynamic -->
+        <!-- Docs of the library can be found at http://bootstrap-table.wenzhixin.net.cn/documentation/ -->
+        <h1>{% trans 'Data Grid'%}</h1>
+        <table data-locale="en-EN" data-search="true" data-toggle="table" data-show-header="true" data-pagination="true" data-page-size="4">
+        <thead>
+            <tr>
+                <th data-sortable="true">{% trans 'Column title' %} 1</th>
+                <th data-sortable="true">{% trans 'Column title' %} 2</th>
+                <th data-sortable="true">{% trans 'Column title' %} 3</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>{% trans 'Item'%} 1</td>
+                <td>$1</td>
+                <td class="row">
+                    <span class="text-center col-md-4 glyphicon glyphicon-share"></span>
+                    <span class="text-center col-md-4 glyphicon glyphicon-heart"></span>
+                    <span class="text-center col-md-4 glyphicon glyphicon-trash"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>{% trans 'Item'%} 2</td>
+                <td>$2</td>
+                <td class="row">
+                    <span class="text-center col-md-4 glyphicon glyphicon-share"></span>
+                    <span class="text-center col-md-4 glyphicon glyphicon-heart"></span>
+                    <span class="text-center col-md-4 glyphicon glyphicon-trash"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>{% trans 'Item'%} 3</td>
+                <td>$1</td>
+                <td class="row">
+                    <span class="text-center col-md-4 glyphicon glyphicon-share"></span>
+                    <span class="text-center col-md-4 glyphicon glyphicon-heart"></span>
+                    <span class="text-center col-md-4 glyphicon glyphicon-trash"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>{% trans 'Item'%} 7</td>
+                <td>$2</td>
+                <td class="row">
+                    <span class="text-center col-md-4 glyphicon glyphicon-share"></span>
+                    <span class="text-center col-md-4 glyphicon glyphicon-heart"></span>
+                    <span class="text-center col-md-4 glyphicon glyphicon-trash"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>{% trans 'Item'%} 5</td>
+                <td>$1</td>
+                <td class="row">
+                    <span class="text-center col-md-4 glyphicon glyphicon-share"></span>
+                    <span class="text-center col-md-4 glyphicon glyphicon-heart"></span>
+                    <span class="text-center col-md-4 glyphicon glyphicon-trash"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>{% trans 'Item'%} 6</td>
+                <td>$2</td>
+                <td class="row">
+                    <span class="text-center col-md-4 glyphicon glyphicon-share"></span>
+                    <span class="text-center col-md-4 glyphicon glyphicon-heart"></span>
+                    <span class="text-center col-md-4 glyphicon glyphicon-trash"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>{% trans 'Item'%} 4</td>
+                <td>$1</td>
+                <td class="row">
+                    <span class="text-center col-md-4 glyphicon glyphicon-share"></span>
+                    <span class="text-center col-md-4 glyphicon glyphicon-heart"></span>
+                    <span class="text-center col-md-4 glyphicon glyphicon-trash"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>{% trans 'Item'%} 8</td>
+                <td>$2</td>
+                <td class="row">
+                    <span class="text-center col-md-4 glyphicon glyphicon-share"></span>
+                    <span class="text-center col-md-4 glyphicon glyphicon-heart"></span>
+                    <span class="text-center col-md-4 glyphicon glyphicon-trash"></span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+    <div class="container">
+        <h1>{% trans 'Standard panel'%}</h1>
+        <div class="panel panel-default django-panel">
+            <div class="panel-heading">
+                <h2>{% trans 'Panel title'%}</h2>
+            </div>
+            <div class="panel-body">
+                <p>
+                    One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his
+                    bed into a horrble vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly doomed and divided
+                    by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment.
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+{% endblock content %}

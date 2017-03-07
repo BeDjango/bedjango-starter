@@ -1,0 +1,12 @@
+{% extends 'base/base.html' %}
+{% load i18n %}
+{% block content %}
+<div class="jumbotron">
+    <h4 class="modal-title" id="myModalLabel">
+        {% trans "Privacy Policy and Legal conditions" %}
+    </h4>
+</div>
+<div class="modal-body container">
+    {% lorem 9 p %}
+</div>
+{% endblock %}

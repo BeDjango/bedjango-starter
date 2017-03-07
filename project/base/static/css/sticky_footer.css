@@ -1,0 +1,60 @@
+/* Margin for index row*/
+.icon-container{
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+.container {
+    max-width: 680px;
+    padding: 0 15px;
+    width: auto;
+}
+.container .text-muted {
+    margin: 20px 0;
+}
+
+.navbar-brand > img{
+    width: 16px;
+    height: 18px;
+}
+
+/* This class is just for place holding. Make your custom class and add it to a jumbotron of bootstrap */
+/* Use the same styles if you want your background to cover the block.*/
+.default-background{
+    text-align: center;
+    color: white;
+    background-image: url('../images/header_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.navbar{
+    margin-bottom: 0
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+    vertical-align: top;
+}
+.col-fixed {
+    /* custom width */
+    width:320px;
+}
+.col-min {
+    /* custom min width */
+    min-width:320px;
+}
+.col-max {
+    /* custom max width */
+    max-width:320px;
+}

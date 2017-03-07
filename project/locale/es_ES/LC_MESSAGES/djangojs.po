@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-03 10:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: base/static/js/account_validator.js:42
+msgid "Username is valid"
+msgstr "El usuario es válido"
+
+#: base/static/js/account_validator.js:52
+msgid "Please write a valid username"
+msgstr "Introduzca un nombre válido"
+
+#: base/static/js/account_validator.js:66
+msgid "Email valid"
+msgstr "Email válido"
+
+#: base/static/js/account_validator.js:76
+msgid "Email is not valid"
+msgstr "El email no es válido"
+
+#: base/static/js/account_validator.js:91
+msgid "Password valid"
+msgstr "Password válido"
+
+#: base/static/js/account_validator.js:106
+msgid "Please write a valid password"
+msgstr "Introduzca una contraseña válida"
+
+#: base/static/js/account_validator.js:123
+msgid "Passwords are correct"
+msgstr "Las contraseñas coinciden"
+
+#: base/static/js/account_validator.js:133
+msgid "Passwords doesn't match"
+msgstr "Las contraseñas no coinciden"

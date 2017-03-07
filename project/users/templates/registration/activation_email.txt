@@ -1,0 +1,5 @@
+{% load i18n %}
+
+{% trans 'This is the activation account email for your account' %} {{ user.username }}.
+
+{% trans 'Your activation code is' %} {{ site }}{% url 'registration_activate' activation_key %} {% trans 'and is available for' %} {{ expiration_days }} {% trans 'days' %}.

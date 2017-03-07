@@ -1,0 +1,32 @@
+{
+  "name": "normalize-libsass",
+  "version": "1.0.3",
+  "homepage": "https://github.com/krisbulman/normalize-libsass",
+  "author": [
+    "Nicolas Gallagher",
+    "Kris Bulman"
+  ],
+  "description": "A libsass compatible sass port of normalize.css, a collection of HTML element and attribute style-normalizations.",
+  "main": "_normalize.scss",
+  "keywords": [
+    "normalize",
+    "reset",
+    "typography",
+    "design",
+    "ui"
+  ],
+  "license": [
+    "MIT",
+    "GPLv2"
+  ],
+  "ignore": [
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "component.json",
+    "package.json",
+    "sache.json",
+    "test.html",
+    "tests/",
+    "node_modules/"
+  ]
+}

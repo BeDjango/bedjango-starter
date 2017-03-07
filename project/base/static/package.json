@@ -1,0 +1,35 @@
+{
+  "name": "Gulp-Workflow",
+  "version": "1.0.0",
+  "description": "Development packages",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "find node_modules/ -name \"*.info\" -type f -delete",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jmfegu@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^6.4.1",
+    "browser-sync": "^2.16.0",
+    "colors": "^1.1.2",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-install": "^0.6.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-postcss": "^6.1.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sass-glob": "^1.0.6",
+    "gulp-sass-lint": "^1.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.3",
+    "jshint-stylish": "^2.2.1",
+    "sassdoc": "^2.1.20"
+  },
+  "devDependencies": {
+    "gulp-sass": "^2.3.2",
+    "gulp-sass-glob": "^1.0.6"
+  }
+}

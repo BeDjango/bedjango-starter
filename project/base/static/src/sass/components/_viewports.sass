@@ -1,0 +1,30 @@
+body
+  transition: max-width 0.35s ease-out, max-height 0.35s ease-out
+
+#resizer
+  position: fixed
+  top: 100px
+  left: 0
+  right: 0
+  z-index: 99
+  width: 100%
+  text-align: center
+  margin: 0 auto
+
+  ul
+    font-size: 17px
+    filter: drop-shadow(0 1px 5px rgba(0, 0, 0, 0.25))
+    transform: translateZ(0)
+    margin: -0.2em auto 0
+    li
+      display: inline-block
+
+  &Frame
+    transition: max-width 0.35s ease-out, max-height 0.35s ease-out;
+
+button
+  &.rotate i:before, &[data-rotate] i:before
+    transition: all 0.15s linear
+
+.landscape i:before
+  transform: rotate(-90deg)

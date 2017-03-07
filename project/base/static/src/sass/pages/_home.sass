@@ -1,0 +1,106 @@
+.home
+  .jumbotron
+    h1
+      color: #2b334a
+
+.information-panel
+  margin: 0
+  height: 400px
+  +breakpoint(768px)
+    height: 650px
+
+  h1
+    color: #2b334a
+    font-size: 32px
+    line-height: normal
+    +breakpoint(768px)
+      font-size: 64px
+
+  h3
+    font-size: 24px
+    +breakpoint(768px)
+      font-size: 32px
+  a
+    margin-top: 3em
+
+// When logged in, the cards we're seeing.
+.home-cards
+  position: relative
+  padding-bottom: 100px
+  .card
+    padding: 0
+    width: 360px
+    .panel-footer
+      background-color: white !important
+      button
+        text-align: center
+
+    .panel-heading
+      padding: 0
+      img
+        height: 240px
+
+    .panel-body
+      height: 143px
+      h3
+        font-size: 18px
+        font-weight: 600
+        line-height: normal
+        font-style: normal
+      p
+        font-size: 14px
+        font-style: normal
+        font-weight: normal
+
+.index-wrapper
+  .action-main
+    h1
+      position: relative
+      color: #fff
+      font-size: 32px
+      margin-top: 0
+      +breakpoint(768px)
+        font-size: 64px
+        margin-top: 0.67em
+
+  .icon-container
+    position: static
+    background-color: $bluegrey_50
+    padding: 48px 0
+
+    +breakpoint(768px)
+
+    div
+      h5
+        color: $bluegrey_400
+        font-size: 24px
+        line-height: 1.33
+    &.carousel
+      position: relative
+      margin-bottom: 0
+      .carousel-control
+        background-image: none
+      .carousel-inner
+        overflow: visible
+        .item
+          .carousel-caption
+            text-shadow: none
+            h5
+             position: relative
+             top: 60px
+             font-size: 20px
+      +breakpoint(768px)
+        display: none
+    &.desktop-descriptors
+      display: none
+      +breakpoint(768px)
+        display: block
+        margin-bottom: 0
+        margin-top: 100px
+    // SVG images coloring. The conversion to IMG is in the JS folder.
+    .big-icon
+      width: 80px
+      height: 80px
+      margin-bottom: 32px
+      path
+        fill: $django-green
