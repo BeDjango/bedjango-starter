@@ -54,7 +54,7 @@ Use django-admin to create the app using the starter
 django-admin.py startproject --template=https://github.com/BeDjango/bedjango-starter/archive/master.zip --extension=py,rst,yml <b>{{nameofproject}}</b>
 
 # Install requirements/dev-requirements
-cd nameofproject
+cd nameofproject/nameofproject
 pip install -r requirements.txt
 pip install -r requirements-dev.txt
 
