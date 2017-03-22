@@ -15,3 +15,4 @@ script:
   - coverage run --source=moscowdjango,meetup manage.py test --settings base.test_settings
 after_success:
   coveralls
+  
