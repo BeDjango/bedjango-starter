@@ -15,6 +15,9 @@ SECRET_KEY = 'vqje&(s$kn!osyitq#y%y1)g7-63#ia#+45(d&c%7x7u)d!pn3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
+# PYTHON version
+PYTHON_VERSION = sys.version_info
+
 TESTING = sys.argv[1:2] == ['test']
 if TESTING:
     DEBUG = False
