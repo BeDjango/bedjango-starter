@@ -14,6 +14,6 @@ install:
 script:
   - coverage run --source=moscowdjango,meetup manage.py test --settings base.test_settings
 after_success:
-  - cd ../djangostarter
+  - cd ../bedjango-starter
   - coveralls
   
