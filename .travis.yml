@@ -15,5 +15,5 @@ script:
   - coverage run --source=./ manage.py test --settings base.test_settings
 after_success:
   - cd ../bedjango-starter
-  - coveralls
+  - coveralls debug
   
