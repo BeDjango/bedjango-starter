@@ -5,3 +5,4 @@ django-debug-toolbar==1.6
 django-material==0.12.5
 django-cachalot==1.4.1
 python-memcached==1.58
+django-cookie-law

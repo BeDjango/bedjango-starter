@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['*']
 INSTALLED_APPS = (
     # 'django_admin_bootstrapped',
     '{{project_name}}',
+    'cookielaw',
     'base',
     'users',
     'cachalot',
