@@ -16,6 +16,7 @@ An easy to use project template for Django 1.10, for more information visit our 
  - Python2/3 compatibility
  - Different utils (Decorators, breadcrumbs..)
  - PO files web editor provided by django-rosetta
+ - Cookies adapted to EU Commision standards.
  
 ## Prerequisites
 What things you need to use this starter and how to install them:
@@ -106,7 +107,11 @@ coverage report -m
  - [Django cachalot](http://django-cachalot.readthedocs.io/en/latest/)
  - [Material design for admin](http://forms.viewflow.io/)
  - [Django-rosetta (PO files web editor)](https://django-rosetta.readthedocs.io/en/latest/)
+ - [Django Cookie law](https://github.com/TyMaszWeb/django-cookie-law)
 
 ## License
 
 This project is licensed under the MIT License
+
+
+

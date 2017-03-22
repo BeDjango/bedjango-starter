@@ -49,6 +49,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django_countries',
     'rosetta',
+    'cookielaw',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -140,7 +141,7 @@ def show_toolbar(request):
     return DEBUG
 
 DEBUG_TOOLBAR_CONFIG = {
-    "SHOW_TOOLBAR_CALLBACK" : show_toolbar,
+    "SHOW_TOOLBAR_CALLBACK": show_toolbar,
 }
 
 # Internationalization
