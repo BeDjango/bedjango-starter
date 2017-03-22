@@ -14,6 +14,7 @@ An easy to use project template for Django 1.10, for more information visit our 
  - Application ready for intenationalization
  - Python2/3 compatibility
  - Different utils (Decorators, breadcrumbs..)
+ - Cookies adapted to EU Commision standards.
  
 ## Prerequisites
 What things you need to use this starter and how to install them:
@@ -103,7 +104,11 @@ coverage report -m
  - [Django debug toolbar](http://django-debug-toolbar.readthedocs.io/en/stable/)
  - [Django cachalot](http://django-cachalot.readthedocs.io/en/latest/)
  - [Material design for admin](http://forms.viewflow.io/)
+ - [Django Cookies docs](https://github.com/TyMaszWeb/django-cookie-law)
 
 ## License
 
 This project is licensed under the MIT License
+
+
+
