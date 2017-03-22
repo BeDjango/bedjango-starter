@@ -16,5 +16,5 @@ script:
 after_success:
   - cp .coverage ../bedjango-starter/
   - cd ../bedjango-starter
-  - coveralls debug
+  - coveralls
   
