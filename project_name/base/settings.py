@@ -24,7 +24,7 @@ else:
 DEBUG_PROPAGATE_EXCEPTIONS = True
 DEBUG = DEBUG_PROPAGATE_EXCEPTIONS
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -45,6 +45,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_countries',
+    'rosetta',
 )
 
 MIDDLEWARE_CLASSES = (

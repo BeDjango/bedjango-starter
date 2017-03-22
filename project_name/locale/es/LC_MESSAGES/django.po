@@ -9,13 +9,14 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-03-06 15:36+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2017-03-22 16:03+0000\n"
+"Last-Translator: b'  <ruben@ruben.com>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Translated-Using: django-rosetta 0.7.12\n"
 
 #: base/context_processors.py:6 base/templates/base/base_header.html:28
 #: base/templates/base/base_header.html:34
@@ -103,11 +104,11 @@ msgstr ""
 
 #: base/templates/base/base_header.html:63
 msgid "Personal menu #1"
-msgstr ""
+msgstr "Menú personal #1"
 
 #: base/templates/base/base_header.html:64
 msgid "Personal menu #2"
-msgstr ""
+msgstr "Menú personal #2"
 
 #: base/templates/base/base_header.html:71
 msgid "Don't have an account yet?"
@@ -141,10 +142,9 @@ msgstr "Objeto de lista número"
 
 #: base/templates/base/lists.html:28 base/templates/base/lists.html:32
 #: base/templates/base/lists.html:36 base/templates/base/lists.html:40
-#, fuzzy
 #| msgid "Item title"
 msgid "Item title "
-msgstr "Título de objeto"
+msgstr "Título del ítem"
 
 #: base/templates/base/lists.html:54 base/templates/base/lists.html:63
 #: base/templates/base/lists.html:72 base/templates/base/lists.html:81
@@ -198,10 +198,9 @@ msgstr ""
 "y minúsculas, números, y caracteres especiales."
 
 #: users/forms.py:13 users/forms.py:38
-#, fuzzy
 #| msgid "Password valid"
 msgid "Password"
-msgstr "Password válido"
+msgstr "Contraseña"
 
 #: users/forms.py:18 users/forms.py:27 users/forms.py:43
 msgid "Invalid password"
@@ -213,7 +212,7 @@ msgstr "Confirmación de contraseña"
 
 #: users/forms.py:24
 msgid "Enter the same password as before, for verification."
-msgstr ""
+msgstr "Introduzca la misma contraseña que antes para la verificación."
 
 #: users/forms.py:36
 msgid "Email"
@@ -290,13 +289,11 @@ msgstr "¡Contraseña cambiada correctamente!"
 #, python-format
 msgid ""
 "\n"
-"            Come back to <a class=\"btn btn-primary btn-xs\" href="
-"\"%(home_url)s\">home</a>\n"
+"            Come back to <a class=\"btn btn-primary btn-xs\" href=\"%(home_url)s\">home</a>\n"
 "        "
 msgstr ""
 "\n"
-"            Vuelve al <a class=\"btn btn-primary btn-xs\" href="
-"\"%(home_url)s\">inicio</a>\n"
+"            Vuelve al <a class=\"btn btn-primary btn-xs\" href=\"%(home_url)s\">inicio</a>\n"
 "        "
 
 #: users/templates/registration/password_change_form.html:12
@@ -309,49 +306,58 @@ msgstr "Cambiar contraseña"
 
 #: users/templates/registration/password_reset_complete.html:7
 msgid "Your password has been set.  You may go ahead and log in now."
-msgstr "Tu contraseña ha sido establecida. Puedes iniciar sesión con la nueva contraseña desde este momento"
+msgstr ""
+"Tu contraseña ha sido establecida. Puedes iniciar sesión con la nueva "
+"contraseña desde este momento"
 
 #: users/templates/registration/password_reset_confirm.html:11
 msgid ""
 "Please enter your new password twice so we can verify you typed it in "
 "correctly."
-msgstr "Por favor, introduzca su contraseña dos veces para verificar que está correctamente escrita"
+msgstr ""
+"Por favor, introduzca su contraseña dos veces para verificar que está "
+"correctamente escrita"
 
 #: users/templates/registration/password_reset_confirm.html:17
-#, fuzzy
 #| msgid "Invalid password"
 msgid "New password:"
-msgstr "Password inválido"
+msgstr "Nueva contraseña:"
 
 #: users/templates/registration/password_reset_confirm.html:24
-#, fuzzy
 #| msgid "Forgot my password"
 msgid "Confirm password:"
-msgstr "Olvidé mi contraseña"
+msgstr "Confirmar contraseña"
 
 #: users/templates/registration/password_reset_confirm.html:29
-#, fuzzy
 #| msgid "Forgot my password"
 msgid "Change my password"
-msgstr "Olvidé mi contraseña"
+msgstr "Cambiar mi contraseña"
 
 #: users/templates/registration/password_reset_confirm.html:36
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used.  Please request a new password reset."
 msgstr ""
+"El enlace para restablecer la contraseña no es válido, posiblemente porque "
+"ya se ha utilizado. Por favor, solicite una nueva petición para restablecer "
+"su contraseña."
 
 #: users/templates/registration/password_reset_done.html:8
 msgid ""
 "We've emailed you instructions for setting your password, if an account "
 "exists with the email you entered. You should receive them shortly."
 msgstr ""
+"Le hemos enviado las instrucciones para cambiar su contraseña, si existe un "
+"usuario registrado con el correo electrónico que ha indicado. Debería de "
+"recibirlo en breve."
 
 #: users/templates/registration/password_reset_done.html:10
 msgid ""
 "If you don't receive an email, please make sure you've entered the address "
 "you registered with, and check your spam folder."
 msgstr ""
+"Si no recibió el correo electrónico, por favor, asegúrese de haberlo "
+"introducido correctamente y compruebe su carpeta de correo no deseado."
 
 #: users/templates/registration/password_reset_email.txt:2
 #, python-format
@@ -359,41 +365,43 @@ msgid ""
 "You're receiving this email because you requested a password reset for your "
 "user account at %(site_name)s."
 msgstr ""
+"Ha recibido este correo electrónico porque ha solicitado la recuperación de "
+"contraseña para su cuenta en %(site_name)s."
 
 #: users/templates/registration/password_reset_email.txt:4
 msgid "Please go to the following page and choose a new password:"
-msgstr ""
+msgstr "Por favor, vaya a la siguiente página y elija una nueva contraseña:"
 
 #: users/templates/registration/password_reset_email.txt:8
 msgid "Your username, in case you've forgotten:"
-msgstr ""
+msgstr "Su nombre de usuario, en caso de que lo haya olvidado:"
 
 #: users/templates/registration/password_reset_email.txt:10
 msgid "Thanks for using our site!"
-msgstr ""
+msgstr "¡Gracias por usar nuestra web!"
 
 #: users/templates/registration/password_reset_email.txt:12
 #, python-format
 msgid "The %(site_name)s team"
-msgstr ""
+msgstr "El equipo de %(site_name)s"
 
 #: users/templates/registration/password_reset_form.html:9
 msgid ""
 "Forgotten your password? Enter your email address below, and we'll email "
 "instructions for setting a new one."
 msgstr ""
+"¿Olvidó su contraseña? Introduzca su correo electrónico abajo y le "
+"enviaremos un correo con las instrucciones para cambiarla a una nueva:"
 
 #: users/templates/registration/password_reset_form.html:14
-#, fuzzy
 #| msgid "Email valid"
 msgid "Email address:"
-msgstr "Email válido"
+msgstr "Correo electrónico: "
 
 #: users/templates/registration/password_reset_form.html:15
-#, fuzzy
 #| msgid "Forgot my password"
 msgid "Reset my password"
-msgstr "Olvidé mi contraseña"
+msgstr "Recuperar mi contraseña"
 
 #: users/templates/registration/registration_complete.html:7
 msgid "Now you're registered "

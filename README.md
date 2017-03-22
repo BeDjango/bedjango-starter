@@ -12,6 +12,7 @@ An easy to use project template for Django 1.10, for more information visit our 
  - Application ready for intenationalization
  - Python2/3 compatibility
  - Different utils (Decorators, breadcrumbs..)
+ - PO files web editor provided by django-rosetta
  
 ## Prerequisites
 What things you need to use this starter and how to install them:
@@ -101,6 +102,7 @@ coverage report -m
  - [Django debug toolbar](http://django-debug-toolbar.readthedocs.io/en/stable/)
  - [Django cachalot](http://django-cachalot.readthedocs.io/en/latest/)
  - [Material design for admin](http://forms.viewflow.io/)
+ - [Django-rosetta (PO files web editor)](https://django-rosetta.readthedocs.io/en/latest/)
 
 ## License
 
