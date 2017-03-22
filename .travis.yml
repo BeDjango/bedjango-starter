@@ -5,4 +5,4 @@ python:
 # command to install dependencies
 install: "sudo pip install -r project_name/requirements.txt"
 # command to run tests
-script: python manage.py test --settings base.test_settings
+script: python project_name/manage.py test --settings base.test_settings
