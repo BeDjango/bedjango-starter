@@ -104,7 +104,7 @@ coverage report -m
  - [Django debug toolbar](http://django-debug-toolbar.readthedocs.io/en/stable/)
  - [Django cachalot](http://django-cachalot.readthedocs.io/en/latest/)
  - [Material design for admin](http://forms.viewflow.io/)
- - [Django Cookies docs](https://github.com/TyMaszWeb/django-cookie-law)
+ - [Django Cookie law](https://github.com/TyMaszWeb/django-cookie-law)
 
 ## License
 
