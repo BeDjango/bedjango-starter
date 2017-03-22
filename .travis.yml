@@ -3,6 +3,11 @@ python:
   - "2.7"
   - "3.5"
 # command to install dependencies
-install: "sudo pip install -r project_name/requirements.txt"
+install: 
+  - sudo pip install -r project_name/requirements.txt
+  - cd ..
+  - django-admin.py startproject --template=bedjango-starter/project_name --extension=py,rst,yml djangostarter
+  - cd djangostarter/djangostarter
+  - python manage.py migrate
 # command to run tests
-script: python project_name/manage.py test --settings base.test_settings base users
+script: python manage.py test --settings base.test_settings
