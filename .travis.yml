@@ -12,7 +12,9 @@ install:
   - python manage.py migrate
 # command to run tests
 script:
-  - coverage run --source=moscowdjango,meetup manage.py test --settings base.test_settings
+  - coverage run --source=./ manage.py test --settings base.test_settings
 after_success:
-  coveralls
+  - cp .coverage ../bedjango-starter/
+  - cd ../bedjango-starter
+  - coveralls
   
