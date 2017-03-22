@@ -31,7 +31,6 @@ ALLOWED_HOSTS = ['*']
 INSTALLED_APPS = (
     # 'django_admin_bootstrapped',
     '{{project_name}}',
-    'cookielaw',
     'base',
     'users',
     'cachalot',
@@ -46,6 +45,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_countries',
+    'cookielaw',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -68,11 +68,8 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [os.path.join(BASE_DIR, 'templates')],
         # 'DIRS': ['../templates'],
+	'APP_DIRS': True,
         'OPTIONS': {
-            'loaders': [
-                'django.template.loaders.filesystem.Loader',
-                'django.template.loaders.app_directories.Loader'
-            ],
             'context_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
