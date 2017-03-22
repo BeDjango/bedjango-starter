@@ -48,6 +48,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_countries',
+    'cookielaw',
 )
 
 MIDDLEWARE_CLASSES = (
