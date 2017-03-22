@@ -1,0 +1,10 @@
+{% load i18n static %}
+<div id="CookielawBanner">
+    <div class="container">
+        <h6>{% trans 'Use of cookies' %}</h6>
+            {% trans 'This website uses cookies to make your experience better.' %}
+         <a href="{% url 'privacy-policy'%}">{% trans "Want to know more?" %}</a>
+         <a class="btn btn-primary" href="javascript:Cookielaw.createCookielawCookie();">{% trans "Ok, understood" %}</a>
+    </div>
+
+</div>
