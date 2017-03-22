@@ -3,6 +3,7 @@
 An easy to use project template for Django 1.10, for more information visit our [blog](http://www.bedjango.com/blog/create-django-application-bedjango-starter/)
 
 [![Build Status](https://api.travis-ci.org/BeDjango/bedjango-starter.svg?branch=master)](https://travis-ci.org/BeDjango/bedjango-starter)
+[![Coverage Status](https://coveralls.io/repos/github/BeDjango/bedjango-starter/badge.svg)](https://coveralls.io/github/BeDjango/bedjango-starter)
 
 ## Features
  - High code coverage
