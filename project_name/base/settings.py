@@ -27,7 +27,7 @@ else:
 DEBUG_PROPAGATE_EXCEPTIONS = True
 DEBUG = DEBUG_PROPAGATE_EXCEPTIONS
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -48,6 +48,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_countries',
+    'rosetta',
     'cookielaw',
 )
 
@@ -140,7 +141,7 @@ def show_toolbar(request):
     return DEBUG
 
 DEBUG_TOOLBAR_CONFIG = {
-    "SHOW_TOOLBAR_CALLBACK" : show_toolbar,
+    "SHOW_TOOLBAR_CALLBACK": show_toolbar,
 }
 
 # Internationalization
