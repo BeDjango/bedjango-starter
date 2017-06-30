@@ -1,4 +1,6 @@
 # Releases
+## 0.2.1 (2017-06-30)
+- Installed Django-Rosetta
 ## 0.2.0 (2017-03-22)
 - Travis integration
 - Cookies adapted to EU Commision standards
