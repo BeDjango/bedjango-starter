@@ -5,9 +5,16 @@ python:
 # command to install dependencies
 install: 
   - sudo pip install -r project_name/requirements.txt
+  - sudo pip install coveralls
   - cd ..
   - django-admin.py startproject --template=bedjango-starter/project_name --extension=py,rst,yml djangostarter
   - cd djangostarter
   - python manage.py migrate
 # command to run tests
-script: python manage.py test --settings base.test_settings
+script:
+  - coverage run --source=./ manage.py test --settings base.test_settings
+after_success:
+  - cp .coverage ../bedjango-starter/
+  - cd ../bedjango-starter
+  - coveralls
+  
