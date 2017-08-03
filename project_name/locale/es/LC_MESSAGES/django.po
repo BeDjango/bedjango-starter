@@ -34,22 +34,6 @@ msgstr "¿quiere saber más?"
 msgid "Ok, understood"
 msgstr "Vale, entendido"
 
-#: base/cookielaw/banner.html:4
-msgid "Use of cookies"
-msgstr "Uso de cookies"
-
-#: base/cookielaw/banner.html:5
-msgid "This website uses cookies to make your experience better."
-msgstr "Este sitio usa cookies para mejorar su experiencia de navegación."
-
-#: base/cookielaw/banner.html:6
-msgid "Want to know more?"
-msgstr "¿quiere saber más?"
-
-#: base/cookielaw/banner.html:7
-msgid "Ok, understood"
-msgstr "Vale, entendido"
-
 #: base/context_processors.py:6 base/templates/base/base_header.html:28
 #: base/templates/base/base_header.html:34
 msgid "Home"
