@@ -4,6 +4,7 @@ An easy to use project template for Django 1.10, for more information visit our 
 
 [![Build Status](https://api.travis-ci.org/BeDjango/bedjango-starter.svg?branch=master)](https://travis-ci.org/BeDjango/bedjango-starter)
 [![Coverage Status](https://coveralls.io/repos/github/BeDjango/bedjango-starter/badge.svg)](https://coveralls.io/github/BeDjango/bedjango-starter)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/146d6b54a28b4ca19770c5984c93eab1)](https://www.codacy.com/app/pabloig90/bedjango-starter?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=BeDjango/bedjango-starter&amp;utm_campaign=Badge_Grade)
 
 ## Features
  - High code coverage
