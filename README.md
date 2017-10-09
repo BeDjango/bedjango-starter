@@ -2,6 +2,7 @@
 
 An easy to use project template for Django 1.10, for more information visit our [blog](http://www.bedjango.com/blog/create-django-application-bedjango-starter/)
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/146d6b54a28b4ca19770c5984c93eab1)](https://www.codacy.com/app/pabloig90/bedjango-starter?utm_source=github.com&utm_medium=referral&utm_content=BeDjango/bedjango-starter&utm_campaign=badger)
 [![Build Status](https://api.travis-ci.org/BeDjango/bedjango-starter.svg?branch=master)](https://travis-ci.org/BeDjango/bedjango-starter)
 [![Coverage Status](https://coveralls.io/repos/github/BeDjango/bedjango-starter/badge.svg)](https://coveralls.io/github/BeDjango/bedjango-starter)
 
