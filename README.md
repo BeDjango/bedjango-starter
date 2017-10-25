@@ -1,6 +1,6 @@
 # BeDjango starter skeleton ![](http://www.bedjango.com/static/images/logo-bedjango.svg)
 
-An easy to use project template for Django 1.10, for more information visit our [blog](http://www.bedjango.com/blog/create-django-application-bedjango-starter/)
+An easy to use project template for Django 1.11, for more information visit our [blog](http://www.bedjango.com/blog/create-django-application-bedjango-starter/)
 
 [![Build Status](https://api.travis-ci.org/BeDjango/bedjango-starter.svg?branch=master)](https://travis-ci.org/BeDjango/bedjango-starter)
 [![Coverage Status](https://coveralls.io/repos/github/BeDjango/bedjango-starter/badge.svg)](https://coveralls.io/github/BeDjango/bedjango-starter)
@@ -54,7 +54,7 @@ virtualenv -p python3 venv
 
 # Activate virtualenv and install Django
 source venv/bin/activate
-pip install django==1.10
+pip install django==1.11
 
 Use django-admin to create the app using the starter
 django-admin.py startproject --template=https://github.com/BeDjango/bedjango-starter/archive/master.zip --extension=py,rst,yml <b>{{nameofproject}}</b>
