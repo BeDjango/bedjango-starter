@@ -1,9 +1,9 @@
-Django==1.10
-django-registration==2.1.2
-django-countries==4.0
-django-debug-toolbar==1.6
-django-material==0.12.5
-django-cachalot==1.4.1
+Django==1.11
+django-registration==2.3
+django-countries==5.0
+django-debug-toolbar==1.8
+django-material==1
+django-cachalot==1.5.0
 python-memcached==1.58
 django-rosetta==0.7.13
 django-cookie-law==1.0.13
