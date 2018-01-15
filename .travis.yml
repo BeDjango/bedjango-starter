@@ -4,7 +4,7 @@ python:
   - "3.5"
 # command to install dependencies
 install: 
-  - sudo pip install -r project_name/requirements.txt
+  - sudo pip install -r project_name/requirements.txt | echo 'yes'
   - sudo pip install coveralls
   - cd ..
   - django-admin.py startproject --template=bedjango-starter/project_name --extension=py,rst,yml djangostarter
