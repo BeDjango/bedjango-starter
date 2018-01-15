@@ -1,0 +1,99 @@
+.modal-backdrop
+  position: fixed
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  z-index: 1040
+  background-color: #000
+  &.in
+    filter: alpha(opacity = 50)
+    opacity: 0
+
+#modal-login
+  width: 247px
+  overflow: visible !important
+  .white_pointer
+    position: absolute
+    height: 0
+    width: 0
+    top: -15px
+    right: 35px
+    border: 8px solid transparent
+    border-bottom: 8px solid white
+  .modal-content
+    position: relative
+    border-radius: 2px
+    background-color: #fafafa
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 0 8px 0 rgba(0, 0, 0, 0.12)
+    .modal-footer
+      text-align: center
+      &::after
+        padding-bottom: 1em
+      .modal-information-message
+        display: block
+        font-size: 12px
+        font-weight: bold
+        color: #78909C
+        padding-bottom: 13px
+        text-align: center
+        margin-bottom: 13px
+        text-transform: uppercase
+      a
+        padding: 12px 45px
+        background-color: #D81B60
+        font-weight: bold
+        color: white
+        font-size: 14px
+        font-family: "Raleway", "Arial", sans-serif
+        border: none
+        position: relative
+        text-transform: uppercase
+        transition: 0.5s ease
+        background-color: white
+        color: #2b334a
+        border: 1px solid #2b334a
+        border-radius: 2px
+        margin-bottom: 9px
+        &:hover
+          background-color: #ff388b
+    .modal-body form
+      label
+        display: block
+        margin-top: 17px
+        &:last-child
+          margin-top: 35px
+      input
+        width: 200px
+        height: 40px
+        border-radius: 2px
+        padding-left: 12px
+        border: 1px solid #cfd8dc
+        &[type='submit']
+          padding: 4px 10px
+          background-color: #D81B60
+          font-weight: bold
+          color: white
+          font-size: 14px
+          font-family: "Raleway", "Arial", sans-serif
+          border: none
+          position: relative
+          text-transform: uppercase
+          transition: 0.5s ease
+          margin-top: 32px
+
+          &:hover
+            background-color: #ff388b
+
+      a
+        color: #D81B60
+        font-size: 14px
+        margin-top: 19px
+        text-decoration: none
+        display: block
+        text-align: center
+
+  .disabled
+    background-color: #d9dfe3 !important
+    color: #b0bec5 !important
+    cursor: not-allowed

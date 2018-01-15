@@ -893,6 +893,7 @@ header .block-right .block-login span {
   list-style: none;
   padding: 1em 0 1em 3.6em;
   position: relative;
+  margin-top: 3px;
 }
 
 .errorlist::after {
@@ -1288,220 +1289,13 @@ prefooter div div {
   line-height: 1.5;
 }
 
-.registration-layout {
-  text-align: left;
+.registered {
+  text-align: center;
 }
 
-@media (min-width: 768px) {
-  .registration-layout {
-    padding-bottom: 80px;
-  }
-}
-
-.registration-layout .registration-form-wrapper .registration {
-  padding: 0;
-  margin-bottom: 0;
-}
-
-.registration-layout .registration-form-wrapper .registration h1 {
-  position: static;
-  text-align: left;
-  margin-top: 0;
-  padding-left: 6%;
-  padding-top: 0.67em;
-  padding-right: 0;
-  font-size: 32px;
-}
-
-@media (min-width: 768px) {
-  .registration-layout .registration-form-wrapper .registration h1 {
-    font-size: 48px;
-  }
-}
-
-@media (min-width: 890px) {
-  .registration-layout .registration-form-wrapper .registration h1 {
-    font-size: 64px;
-  }
-}
-
-@media (min-width: 768px) {
-  .registration-layout .registration-form-wrapper .create-account-form {
-    margin-top: 0;
-    margin-left: 6%;
-    position: relative;
-  }
-}
-
-.registration-layout .registration-form-wrapper .create-account-form form {
-  background-color: white;
-}
-
-@media (min-width: 768px) {
-  .registration-layout .registration-form-wrapper .create-account-form form {
-    width: 842px;
-    height: 335px;
-    display: -webkit-box;
-    display: -moz-box;
-    display: box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: start;
-    -moz-box-pack: start;
-    box-pack: start;
-    -webkit-justify-content: flex-start;
-    -moz-justify-content: flex-start;
-    -ms-justify-content: flex-start;
-    -o-justify-content: flex-start;
-    justify-content: flex-start;
-    -ms-flex-pack: start;
-  }
-}
-
-.registration-layout .registration-form-wrapper .create-account-form form .image-separator {
-  width: 40%;
-  margin-right: 40px;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.registration-layout .registration-form-wrapper .create-account-form form .image-separator img {
-  width: 100%;
-}
-
-.registration-layout .registration-form-wrapper .create-account-form form .registration-form {
-  padding-top: 36px;
-}
-
-@media (min-width: 768px) {
-  .registration-layout .registration-form-wrapper .create-account-form form .registration-form {
-    display: inline-block;
-    width: 54%;
-  }
-}
-
-.registration-layout .registration-form-wrapper .create-account-form form .registration-form .action-call {
-  padding-bottom: 2em;
-}
-
-@media (min-width: 768px) {
-  .registration-layout .registration-form-wrapper .create-account-form form .registration-form .action-call {
-    padding-bottom: 0;
-  }
-}
-
-.registration-layout .registration-form-wrapper .create-account-form form .registration-form .action-call span {
-  display: block;
-  font-size: 12px;
-  color: #78909C;
-  border-left: 2px solid #78909C;
-  padding: 0 3%;
-  margin-bottom: 29px;
-  margin-top: 20px;
-  margin-left: 4%;
-}
-
-@media (min-width: 768px) {
-  .registration-layout .registration-form-wrapper .create-account-form form .registration-form .action-call span {
-    padding-left: 0 10px 0 0;
-    padding-right: 0;
-    margin-left: 0;
-  }
-}
-
-.registration-layout .registration-form-wrapper .create-account-form form .registration-form .action-call button {
-  padding: 10px 40px;
-  background-color: #D81B60;
-  font-weight: bold;
-  color: white;
-  font-size: 14px;
-  font-family: "Raleway", "Arial", sans-serif;
-  border: none;
-  position: relative;
-  text-transform: uppercase;
-  transition: 0.5s ease;
-  border-radius: 2px;
-  margin: 0 auto 1em auto;
-  display: block;
-}
-
-.registration-layout .registration-form-wrapper .create-account-form form .registration-form .action-call button:hover {
-  background-color: #ff388b;
-}
-
-@media (min-width: 768px) {
-  .registration-layout .registration-form-wrapper .create-account-form form .registration-form .action-call button {
-    margin: 0 auto;
-  }
-}
-
-@media (min-width: 768px) {
-  .registration-layout .registration-form-wrapper .create-account-form form .registration-form .fields-separator {
-    display: -webkit-box;
-    display: -moz-box;
-    display: box;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flexbox;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-}
-
-.registration-layout .registration-form-wrapper .create-account-form form .registration-form .fields-separator .form-group {
-  width: 100%;
-  margin-left: 7%;
-  margin-right: 7%;
-  position: relative;
-}
-
-@media (min-width: 768px) {
-  .registration-layout .registration-form-wrapper .create-account-form form .registration-form .fields-separator .form-group {
-    width: 50%;
-    padding: 0;
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-
-.registration-layout .registration-form-wrapper .create-account-form form .registration-form .fields-separator .form-group label {
-  display: block;
-  font-size: 14px;
-  font-weight: 600;
-  color: #2b334a;
-}
-
-.registration-layout .registration-form-wrapper .create-account-form form .registration-form .fields-separator .form-group .msg {
-  position: absolute;
-  bottom: -16px;
-  left: 0;
-  font-size: 12px;
-}
-
-.registration-layout .registration-form-wrapper .create-account-form form .registration-form .fields-separator .form-group .msg.ok {
-  color: #29a156;
-}
-
-.registration-layout .registration-form-wrapper .create-account-form form .registration-form .fields-separator .form-group .msg.wrong {
-  color: red;
-}
-
-.registration-layout .registration-form-wrapper .create-account-form form .registration-form .fields-separator .form-group input {
-  height: 40px;
-  width: 100%;
-  padding-left: 12px;
-  border-radius: 2px;
-  background-color: #ffffff;
-  border: solid 1px #cfd8dc;
-}
-
-@media (min-width: 768px) {
-  .registration-layout .registration-form-wrapper .create-account-form form .registration-form .fields-separator .form-group input {
-    width: 188px;
-  }
+.registered a {
+  margin-top: 2em;
+  margin-bottom: 5em;
 }
 
 .blog-content .blog-image {
@@ -1572,21 +1366,111 @@ prefooter div div {
   line-height: 92px;
 }
 
-.no-header {
-  background-color: #78909C;
-  background-image: url("../images/logo.png");
-  background-repeat: no-repeat;
-  background-position: 10% 10%;
-  height: 100%;
+.registration-layout {
+  text-align: left;
 }
 
-.registered {
-  text-align: center;
+.registration-layout .registration-form-wrapper .registration {
+  padding: 0;
+  margin-bottom: 0;
 }
 
-.registered a {
-  margin-top: 2em;
-  margin-bottom: 4em;
+.registration-layout .registration-form-wrapper .registration h1 {
+  position: static;
+  text-align: left;
+  margin-top: 0;
+  padding-left: 6%;
+  padding-top: 0.67em;
+  padding-right: 0;
+  font-size: 32px;
+}
+
+.registration-layout .registration-form-wrapper .create-account-form form {
+  background-color: white;
+}
+
+.registration-layout .registration-form-wrapper .create-account-form form .image-separator {
+  width: 40%;
+  margin-right: 40px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.registration-layout .registration-form-wrapper .create-account-form form .image-separator img {
+  width: 100%;
+}
+
+.registration-layout .registration-form-wrapper .create-account-form form .registration-form {
+  padding-top: 36px;
+}
+
+.registration-layout .registration-form-wrapper .create-account-form form .registration-form .action-call span {
+  display: block;
+  font-size: 12px;
+  color: #78909C;
+  border-left: 2px solid #78909C;
+  padding: 0 3%;
+  margin-bottom: 29px;
+  margin-top: 20px;
+  margin-left: 4%;
+}
+
+.registration-layout .registration-form-wrapper .create-account-form form .registration-form .action-call button {
+  padding: 10px 40px;
+  background-color: #D81B60;
+  font-weight: bold;
+  color: white;
+  font-size: 14px;
+  font-family: "Raleway", "Arial", sans-serif;
+  border: none;
+  position: relative;
+  text-transform: uppercase;
+  transition: 0.5s ease;
+  border-radius: 2px;
+  margin: 0 auto 1em auto;
+  display: block;
+}
+
+.registration-layout .registration-form-wrapper .create-account-form form .registration-form .action-call button:hover {
+  background-color: #ff388b;
+}
+
+.registration-layout .registration-form-wrapper .create-account-form form .registration-form .fields-separator .form-group {
+  width: 100%;
+  margin-left: 7%;
+  margin-right: 7%;
+  position: relative;
+}
+
+.registration-layout .registration-form-wrapper .create-account-form form .registration-form .fields-separator .form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2b334a;
+}
+
+.registration-layout .registration-form-wrapper .create-account-form form .registration-form .fields-separator .form-group .msg {
+  position: absolute;
+  bottom: -16px;
+  left: 0;
+  font-size: 12px;
+}
+
+.registration-layout .registration-form-wrapper .create-account-form form .registration-form .fields-separator .form-group .msg.ok {
+  color: #29a156;
+}
+
+.registration-layout .registration-form-wrapper .create-account-form form .registration-form .fields-separator .form-group .msg.wrong {
+  color: red;
+}
+
+.registration-layout .registration-form-wrapper .create-account-form form .registration-form .fields-separator .form-group input {
+  height: 40px;
+  width: 100%;
+  padding-left: 12px;
+  border-radius: 2px;
+  background-color: #ffffff;
+  border: solid 1px #cfd8dc;
 }
 
 .password-reset {
@@ -1815,6 +1699,29 @@ prefooter div div {
   margin-bottom: -40px;
 }
 
+.index-wrapper .icon-container.carousel {
+  position: relative;
+  margin-bottom: 0;
+}
+
+.index-wrapper .icon-container.carousel .carousel-control {
+  background-image: none;
+}
+
+.index-wrapper .icon-container.carousel .carousel-inner {
+  overflow: visible;
+}
+
+.index-wrapper .icon-container.carousel .carousel-inner .item .carousel-caption {
+  text-shadow: none;
+}
+
+.index-wrapper .icon-container.carousel .carousel-inner .item .carousel-caption h5 {
+  position: relative;
+  top: 60px;
+  font-size: 20px;
+}
+
 .dropdown {
   position: relative;
   z-index: 8;
@@ -1888,6 +1795,282 @@ prefooter div div {
 
 .dropdown .show-menu {
   display: block;
+}
+
+@media (min-width: 768px) {
+  header .background-wrapper img {
+    height: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  header .overlay {
+    height: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  header {
+    padding: 0 5%;
+    height: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  header nav.navbar .navbar-collapse {
+    width: auto;
+    position: relative;
+  }
+}
+
+@media (min-width: 768px) {
+  header nav.navbar .navbar-collapse {
+    background-color: transparent;
+    position: static;
+  }
+  header nav.navbar .navbar-collapse ul.navbar.right {
+    padding: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  header nav.navbar {
+    background-color: transparent;
+    left: 0;
+    height: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  header nav.navbar .navbar-header .navbar-brand {
+    padding-top: 0.75em;
+  }
+}
+
+@media (min-width: 768px) {
+  header nav.navbar .navbar-header .navbar-brand img {
+    height: auto;
+    margin-top: 0;
+    width: auto;
+    position: static;
+  }
+}
+
+@media (min-width: 768px) {
+  header nav.navbar .navbar-header {
+    margin-top: 0;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-custom .navbar-nav > li > a {
+    padding: 18px 12px 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-custom .navbar-nav > .active > a {
+    color: white;
+    background-color: transparent;
+    border-bottom: 6px solid #D81B60;
+    border-left: none;
+  }
+  .navbar-custom .navbar-nav > .active > a:hover, .navbar-custom .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: transparent;
+    border-bottom: 6px solid #D81B60;
+    border-left: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-custom .navbar-nav > li > a {
+    padding: 18px 15px 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  footer .block-social {
+    margin: 0;
+    float: right;
+  }
+}
+
+@media (min-width: 768px) {
+  prefooter div div {
+    padding: 0;
+  }
+}
+
+@media (min-width: 44em) {
+  .flex-box {
+    flex: 3 3 32.20339%;
+  }
+}
+
+@media (min-width: 44em) {
+  .flex-title {
+    font-size: 2em;
+  }
+}
+
+@media (min-width: 44em) {
+  .flex-box-big {
+    flex: 2 2 49.15254%;
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-main h1 {
+    font-size: 64px;
+  }
+}
+
+@media (min-width: 768px) {
+  .information-panel {
+    height: 650px;
+  }
+}
+
+@media (min-width: 768px) {
+  .information-panel h1 {
+    font-size: 64px;
+  }
+}
+
+@media (min-width: 768px) {
+  .information-panel h3 {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 768px) {
+  .index-wrapper .action-main h1 {
+    font-size: 64px;
+    margin-top: 0.67em;
+  }
+}
+
+@media (min-width: 768px) {
+  .index-wrapper .icon-container.carousel {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .index-wrapper .icon-container.desktop-descriptors {
+    display: block;
+    margin-bottom: 0;
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .registration-layout {
+    padding-bottom: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  .registration-layout .registration-form-wrapper .registration h1 {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 890px) {
+  .registration-layout .registration-form-wrapper .registration h1 {
+    font-size: 64px;
+  }
+}
+
+@media (min-width: 768px) {
+  .registration-layout .registration-form-wrapper .create-account-form {
+    margin-top: 0;
+    margin-left: 6%;
+    position: relative;
+  }
+}
+
+@media (min-width: 768px) {
+  .registration-layout .registration-form-wrapper .create-account-form form {
+    width: 842px;
+    height: 335px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -moz-box-pack: start;
+    box-pack: start;
+    -webkit-justify-content: flex-start;
+    -moz-justify-content: flex-start;
+    -ms-justify-content: flex-start;
+    -o-justify-content: flex-start;
+    justify-content: flex-start;
+    -ms-flex-pack: start;
+  }
+}
+
+@media (min-width: 768px) {
+  .registration-layout .registration-form-wrapper .create-account-form form .registration-form {
+    display: inline-block;
+    width: 54%;
+  }
+}
+
+@media (min-width: 768px) {
+  .registration-layout .registration-form-wrapper .create-account-form form .registration-form .action-call {
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .registration-layout .registration-form-wrapper .create-account-form form .registration-form .action-call span {
+    padding-left: 0 10px 0 0;
+    padding-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .registration-layout .registration-form-wrapper .create-account-form form .registration-form .action-call button {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .registration-layout .registration-form-wrapper .create-account-form form .registration-form .fields-separator {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 768px) {
+  .registration-layout .registration-form-wrapper .create-account-form form .registration-form .fields-separator .form-group {
+    width: 50%;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .registration-layout .registration-form-wrapper .create-account-form form .registration-form .fields-separator .form-group input {
+    width: 188px;
+  }
 }
 
 body {
@@ -2050,6 +2233,12 @@ button.rotate i:before, button[data-rotate] i:before {
   text-align: center;
 }
 
+#modal-login .disabled {
+  background-color: #d9dfe3 !important;
+  color: #b0bec5 !important;
+  cursor: not-allowed;
+}
+
 .list-with-badges {
   text-align: left;
   counter-reset: li;
@@ -2110,36 +2299,74 @@ button.rotate i:before, button[data-rotate] i:before {
   font-size: 14px;
 }
 
-.bootstrap-table .fixed-table-container {
-  border: 0;
+.errorlist {
+  background-color: rgba(243, 80, 30, 0.2);
+  border-radius: 2px;
+  list-style: none;
+  padding: 1em 0 1em 3.6em;
+  position: relative;
 }
 
-.bootstrap-table .fixed-table-container .fixed-table-pagination .pull-right .pagination li.active a {
-  border-bottom: 1px solid #2b334a;
+.errorlist::after {
+  position: absolute;
+  content: "ERROR";
+  top: 15.5px;
+  left: 5px;
+  color: #cd4419;
+  font-weight: bold;
+  font-size: 12px;
 }
 
-.bootstrap-table .fixed-table-container .fixed-table-pagination .pull-right .pagination li a {
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  margin: 0.5em 0.3em;
+.information-panel {
+  margin: 0;
+  height: 400px;
+}
+
+.information-panel h1 {
   color: #2b334a;
+  font-size: 32px;
+  line-height: normal;
 }
 
-.bootstrap-table .fixed-table-container .fixed-table-body {
-  border: 1px solid #ddd;
+.information-panel h3 {
+  font-size: 24px;
 }
 
-.bootstrap-table .fixed-table-container .fixed-table-body table tbody tr {
-  background-color: #fff;
+.information-panel a {
+  margin-top: 3em;
 }
 
-.bootstrap-table .fixed-table-container .fixed-table-body table tbody tr:hover {
-  background-color: #ECEFF1;
+.home-cards .card .panel-footer {
+  background-color: white !important;
 }
 
-.bootstrap-table .fixed-table-container .fixed-table-body table tbody td {
-  border-left: 0;
+.home-cards .card .panel-footer button {
+  text-align: center;
+}
+
+.home-cards .card .panel-heading {
+  padding: 0;
+}
+
+.home-cards .card .panel-heading img {
+  height: 240px;
+}
+
+.home-cards .card .panel-body {
+  height: 143px;
+}
+
+.home-cards .card .panel-body h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  font-style: normal;
+}
+
+.home-cards .card .panel-body p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
 }
 
 .django-panel {
