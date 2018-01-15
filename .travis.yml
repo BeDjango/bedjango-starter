@@ -4,9 +4,9 @@ python:
   - "3.5"
 # command to install dependencies
 before_install:
-  - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+  - echo -e "Host *\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 install:
-  - echo -e "Host github.com StrictHostKeyChecking no" >> ~/.ssh/config
+  - echo -e "Host *\n\tStrictHostKeyChecking no" >> ~/.ssh/config
   - sudo pip install -r project_name/requirements.txt 
   - sudo pip install coveralls
   - cd ..
