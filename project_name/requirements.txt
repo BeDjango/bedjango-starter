@@ -1,5 +1,6 @@
 Django==1.11
-django-registration==2.3
+# django-registration==2.3
+-e git+git@github.com:jambonrose/django-registration.git@fix_issue_106_add_reverse_lazy#egg=django-registration
 django-countries==5.0
 django-debug-toolbar==1.8
 django-material==1
