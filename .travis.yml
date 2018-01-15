@@ -3,8 +3,11 @@ python:
   - "2.7"
   - "3.5"
 # command to install dependencies
-install: 
-  - sudo pip install -r project_name/requirements.txt
+before_install:
+  - echo -e "Host *\n    StrictHostKeyChecking no\n" >> ~/.ssh/config
+install:
+  - echo -e "Host *\n    StrictHostKeyChecking no" >> ~/.ssh/config
+  - sudo pip install -r project_name/requirements.txt 
   - sudo pip install coveralls
   - cd ..
   - django-admin.py startproject --template=bedjango-starter/project_name --extension=py,rst,yml djangostarter
