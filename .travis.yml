@@ -6,7 +6,7 @@ python:
 before_install:
   - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 install:
-  - echo "StrictHostKeyChecking no" > ~/.ssh/config 
+  - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
   - sudo pip install -r project_name/requirements.txt 
   - sudo pip install coveralls
   - cd ..
