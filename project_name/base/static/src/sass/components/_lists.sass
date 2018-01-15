@@ -1,0 +1,57 @@
+.list-with-badges
+  text-align: left
+  counter-reset: li
+  li
+    position: relative
+    padding-left: 4em
+    .badge
+      font-family: "Raleway"
+      font-size: 14px
+      font-weight: 500
+      color: #fff
+      background-color: #29a156
+    &::before
+      counter-increment: li
+      content: counter(li)
+      position: absolute
+      left: 16px
+      color: #78909c
+    &:nth-last-child(4n+1) span
+      background-color: #ffb300
+    &:nth-last-child(4n+2) span
+      background-color: #f4511e
+    &:nth-last-child(4n+3) span
+      background-color: #78909c
+
+.django-list
+  text-align: left
+  a
+    h4
+      font-size: 14px
+      color: #78909c !important
+      font-weight: bold !important
+      text-transform: uppercase
+      font-family: "Raleway" !important
+      font-style: normal
+      font-stretch: normal
+      letter-spacing: normal
+      line-height: normal
+      margin-top: 0.4em
+      margin-bottom: 0.7em
+    p
+      font-size: 14px
+
+.errorlist
+  background-color: rgba(243, 80, 30, 0.2)
+  border-radius: 2px
+  list-style: none
+  padding: 1em 0 1em 3.6em
+  position: relative
+  &::after
+    position: absolute
+    content: "ERROR"
+    top: 15.5px
+    left: 5px
+    color: #cd4419
+    font-weight: bold
+    font-size: 12px
