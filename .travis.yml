@@ -3,7 +3,7 @@ python:
   - "2.7"
   - "3.5"
 # command to install dependencies
-before_script:
+before_install:
   - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 install: 
   - sudo pip install -r project_name/requirements.txt 
