@@ -1,5 +1,6 @@
 $(document).ready(function () {
-    if($("#modal-login").has(".errorlist")){
+
+    if($("#modal-login").find(".errorlist").length > 0){
         $("#modal-login").modal("show");
     }
 });
