@@ -4,8 +4,8 @@ from django.contrib.auth.admin import UserAdmin
 from .models import User
 
 
-class UserAdmin(UserAdmin):
+class CustomUserAdmin(UserAdmin):
     pass
 
-admin.site.register(User, UserAdmin)
+admin.site.register(User, CustomUserAdmin)
 
